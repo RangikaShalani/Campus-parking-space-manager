@@ -21,8 +21,8 @@ jobs:
       - name: Build app
         run: npm run build
 
-      - name: Build Docker image
-        run: docker build -t myapp .
+      # - name: Build Docker image
+      #   run: docker build -t myapp .
 
-      - name: Deploy to EC2
-        run: echo "Deploy step here"
+      # - name: Deploy to EC2
+      #   run: echo "Deploy step here"
